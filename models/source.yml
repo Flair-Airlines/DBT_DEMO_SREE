@@ -1,0 +1,7 @@
+version: 2
+sources:
+  - name: INFLIGHTSALES_LIFEBOB
+    schema: INFLIGHTSALES_LIFEBOB
+    tables:
+      - name: FLIGHTS
+      
