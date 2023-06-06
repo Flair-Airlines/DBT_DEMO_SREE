@@ -4,4 +4,9 @@ sources:
     schema: INFLIGHTSALES_LIFEBOB
     tables:
       - name: FLIGHTS
+
+  - name: QUALTRICS
+    schema: QUALTRICS_CUSTOMER_FEEDBACK
+    tables:
+      - name: SURVEY_EMBEDDED_DATA
       

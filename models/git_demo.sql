@@ -1,5 +1,5 @@
-select DISTINCT
+{% set my_data = source('QUALTRICS', 'SURVEY_EMBEDDED_DATA') %}
 
-TAX_INFO as TAX_INCOME, CURRENT_TIMESTAMP AS INSERTDATETIME
 
-from {{ source('INFLIGHTSALES_LIFEBOB', 'FLIGHTS') }}
+SELECT *
+FROM {{ my_data }}
